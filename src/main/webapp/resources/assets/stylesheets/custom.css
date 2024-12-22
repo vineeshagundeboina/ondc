@@ -1,0 +1,371 @@
+body {
+    padding-top: 65px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*added by rajnitigya */
+
+/*added by rajnitigya */
+.content-application-form {
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(71, 71, 71, 0.15);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(71, 71, 71, 0.15);
+    box-shadow: 0px 0px 5px 1px rgba(71, 71, 71, 0.15);
+}
+
+.content-application-form * {
+    font-family: 'Arimo', sans-serif;
+}
+
+.content-application-form h3.desc-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #44566e;
+    margin-top: 24px;
+    line-height: 20px;
+}
+
+.content-application-form h4.descript {
+    font-size: 14px;
+    color: #44566e;
+    line-height: 20px;
+}
+
+.content-application-form .upload-box p.subtitle {
+    text-align: left;
+    font-weight: 600;
+    color: #44566e;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.content-application-form .upload-box .upload {
+    border: 1px solid #ccc;
+    color: #72849D;
+    padding: 45px;
+    border-radius: 10px;
+    border-style: dashed;
+    font-weight: 600;
+    text-align: center;
+    max-width: 390px;
+}
+
+.content-application-form .upload-box textarea {
+    max-width: 100%;
+}
+
+.content-application-form .agreement {
+    padding-left: 20px;
+}
+
+.content-application-form .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.content-application-form .btn-top-space {
+    margin-top: 15px;
+}
+
+.content-application-form table {
+    width: 495px;
+}
+
+.content-application-form .inline-set {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.content-application-form .upload {
+    margin-bottom: 5px;
+}
+
+.content-application-form .text-box {
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.content-application-form textarea.comment-box {
+    max-width: 550px;
+    margin-bottom: 20px;
+}
+
+.content-application-form .comment-text {
+    padding-top: 25px;
+}
+
+.content-application-form .comment-text a {
+    color: #006cff;
+    font-weight: 600;
+}
+
+.content-application-form .comment-text a:hover,
+.content-application-form .comment-text a:focus {
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.content-application-form .row>.form-group>a.back {
+    padding-left: 0;
+}
+
+.content-application-form .form-row {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .content-application-form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .content-application-form .comment-text {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .content-application-form table {
+        max-width: 495px;
+        width: 100%;
+        border: none;
+    }
+    .content-application-form .agreement {
+        padding-left: 5px;
+    }
+}
+
+.navbar-brand>img {
+    width: 170px;
+}
+
+.navbar-default {
+    border-bottom: 5px solid #faa519 !important;
+}
+
+.bg-blue {
+    background-color: #004e95;
+}
+
+.nav-pills>a:link {
+    font-size: 12px;
+}
+
+div.data-container {}
+
+div.data-container>div {
+    text-align: center;
+}
+
+div.data-container>div.container>div.data-row {
+    border-bottom: solid 1px #868e96;
+}
+
+a.info {
+    color: black;
+}
+
+div.data-container>div.container>div.elements {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.elements>div.header>div.col {
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: solid 2px black;
+}
+
+div.elements>div.row>div.col {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.bg-fed {
+    background-color: #004e95;
+}
+
+div.bg-fed div.card-header {
+    letter-spacing: 0.1em;
+    font-size: 15px;
+}
+
+div.bg-fed>div.card-body {
+    border-bottom: double 2px #004e95;
+}
+
+div.bg-fed>div.card-footer {
+    border-bottom: double 2px #004e95;
+}
+
+div.card-body>div.container>div.row-info {
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-bottom: 1px dashed #DADADA;
+}
+
+div.user-list {
+    font-size: 14px;
+}
+
+div.validate-fields textarea,
+div.validate-fields select,
+div.validate-fields input:not([type="submit"]) {
+    border-color: #28a745;
+    outline: none;
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    background-image: url('tick.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+
+div.validate-fields textarea:valid:focus,
+div.validate-fields select:valid:focus,
+div.validate-fields input:not([type="submit"]):valid:focus {
+    border-color: #28a745;
+    outline: none;
+    box-shadow: 0 0 10px #28a745;
+    background-image: url('tick.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+
+div.validate-fields textarea:valid,
+div.validate-fields select:valid,
+div.validate-fields input:not([type="submit"]):valid~.input-validation:before {
+    border-color: #28a745;
+    outline: none;
+    background-image: url('tick.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+
+div.validate-fields textarea:invalid,
+div.validate-fields select:invalid,
+div.validate-fields input:not([type="submit"]):invalid {
+    outline: none;
+    border-color: #dc3545;
+    background-image: url('error.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+div.validate-fields input:not([type="submit"]):invalid:focus,
+div.validate-fields select:invalid:focus {
+    outline: none;
+    border-color: #dc3545;
+    box-shadow: 0 0 10px #dc3545;
+}
+
+.close-icon {
+    cursor: pointer;
+}
+
+.menu-box {
+    background: #004e96;
+    min-height: 550px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu-box ul {
+    padding-left: 0px;
+}
+
+.menu-box ul li.active {
+    list-style: none;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-bottom: 1px solid #87a6c5;
+    background-color: #0093fa;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.menu-box ul li {
+    list-style: none;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-bottom: 1px solid #87a6c5;
+    padding-left: 15px;
+}
+
+.menu-box ul li a {
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    padding-right: 12px;
+    font-weight: bold;
+}
+
+.menu-box ul li a:hover,
+.menu-box ul li a:focus {
+    text-decoration: none;
+    font-size: 14px;
+    opacity: .7;
+}
+
+.menu-box ul li a.active {
+    font-weight: 600;
+}
+
+.name_holder {
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    right: 10px
+}
+
+.zero_padding {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.select_width_auto {
+    width: auto !important;
+}
+
+input.required {
+    background-image: url('error.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.error {
+    background-color: #F3E6E6;
+    color: #dc3545;
+    border-color: #dc3545;
+    border-style: dotted;
+    border-width: 2px;
+    padding: 5px;
+}
+
+.checkbox-grid li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+input[data-readonly=true] {
+    pointer-events: none;
+  }
+  
+  
