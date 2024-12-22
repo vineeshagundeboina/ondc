@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Leave Request</title>
+    <style>
+        body {
+            font-family: cursive;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .header {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        .content {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Employee Leave Request</h1>
+        </div>
+        <div class="content">
+            <p>Hi ,<span th:text="${employee.reportManager.employeeName}"></span></p>
+            <p>We wanted to inform you that one of employee/Team member from  your team has applied for leaves so kindly look into the request and update the leave status from your end.<br/>Please find the employee details below <br/></p>
+            
+            <table>
+                <tr>
+                    <td><strong>Employee ID:</strong></td>
+                    <td><span th:text="${employee.employee.employeeId}"></span></td>
+                </tr>
+                <tr>
+                    <td><strong>Email:</strong></td>
+                    <td><span th:text="${employee.employee.employeeName}"></span></td>
+                </tr>
+                <tr>
+                    <td><strong>Phone Number:</strong></td>
+                    <td><span th:text="${employee.employee.mobileNumber}"></span></td>
+                </tr>
+                <tr>
+                    <td><strong>Leave Days:</strong></td>
+                    <td><span th:text="${employee.totalDays}"></span></td>
+                </tr>
+                <tr>
+                    <td><strong>Leave Type:</strong></td>
+                    <td><span th:text="${employee.leaveType}"></span></td>
+                </tr>
+                 <tr>
+                    <td><strong>Leave Reason:</strong></td>
+                    <td><span th:text="${employee.comments}"></span></td>
+                </tr>
+        
+              <!--   <tr>
+                    <td><strong>Position:</strong></td>
+                    <td><span th:text="${employee.roleType}"></td>
+                </tr>-->
+            </table>
+            
+            <p>If you have any questions or concerns regarding this update, please check with management and conform on the same.</p>
+            
+             <b> 
+            <p>Best regards,<br> Splenta Admin<br> Splenta Systems Private Limited</p></b>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 Splenta Systems Private Limited. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

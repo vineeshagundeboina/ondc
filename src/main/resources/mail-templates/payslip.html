@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Leave Request</title>
+    <style>
+        body {
+            font-family: cursive;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .header {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        .content {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Employee Payslip </h1>
+        </div>
+        <div class="content">
+            <p>Hi ,<span th:text="${employeeName}"></span></p><br/>
+            <p>Please find the requested month(<span th:text="${payslip.month}"></span>>) payslip in the attached.<br/> Thank you. <br/></p>
+            
+        	
+            <p>If you have any questions or concerns regarding this update, please check with your reporting manager.</p>
+            
+             <b> 
+            <p>Best regards,<br> Splenta Admin<br> Splenta Systems Private Limited</p></b>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 Splenta Systems Private Limited. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
